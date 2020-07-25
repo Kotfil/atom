@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 30px;
+  display: flex;
+}
+.input {
+  padding: 15px;
+  height: 40px;
+  line-height: 35px;
+  padding-right: 10px;
+  width: 100%;
+  display: table;
+}
+.add {
+  margin-top: 12px;
+  padding: 8px;
+}
+.remove {
+  color: rebeccapurple;
+  margin-left: 20px;
+}

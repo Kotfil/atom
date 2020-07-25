@@ -9,6 +9,16 @@ function App() {
 
   let [notes, setNotes] = useState([]);
 
+  let plusScroll = (notes) => {
+    let arr = [];
+    let arrFunc = notes.map((note, index) => {
+      if (notes.index === notes[0]) {
+        return note.index + 1;
+        let arrEl = [arrFunc,...notes];
+        setNotes(arrEl)
+      }
+    });
+  };
 
   let listsEl = notes.map(n => (
     <ul key={n.id}>
